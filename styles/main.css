@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Carme', sans-serif;
 }
 
 p{
@@ -9,22 +10,20 @@ p{
 h4{
     font-size: 22px;
     font-weight: 700;
-    margin: 10px 0px 20px 0px;
+    margin: 10px 0px 10px 0px;
 }
 
 .brand-logo{
     margin: 0;
-    background-color: rgb(62, 190, 207);
+    background-color: #3399CC;
 }
 
 .brand-name{
     margin: 0;
     padding: 30px 50px;
-    font-size: 75px;
-    font-weight: 500;
-    letter-spacing: 3px;
+    font-size: 72px;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .navbar {
@@ -40,7 +39,7 @@ h4{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .navbar img{
@@ -54,15 +53,21 @@ h4{
     padding: 0px 200px 0px 50px;
 }
 
-.news-box{
-    margin: 30px 0px;
-    padding: 20px 80px 0px 20px;
+.news-container{
+    margin: 20px 0px;
+    padding: 0px 80px 0px 20px;
     width: max-content;
     border: 1px black solid;
 }
 
+.news-container ul{
+    padding-left: 25px;
+    margin-top: 0px;
+}
+
 ul li{
     line-height: 35px;
+    padding-left: 10px;
 }
 
 ul li::marker {
